@@ -1,9 +1,19 @@
 body {
     background-color: #BADA55;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 1.5em;
+    font-size: 2.5em;
     margin: 10vw;
 }
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+      font-size: 10vw;
+    }
+    h1 {
+        text-align: center;
+        font-size: 11vw;
+    }
+  }
 img {
     border-radius: 50%;
     height: 200px;
@@ -11,7 +21,6 @@ img {
   }
 h1 {
     text-align: center;
-
 }
  .rhs {
     text-align: right;
