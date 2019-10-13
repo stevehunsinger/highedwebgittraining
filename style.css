@@ -25,3 +25,13 @@ h1 {
  .rhs {
     text-align: right;
  }
+.footer {
+    left: 0;
+    text-align: center; 
+    font-size: .75em;
+    background-color: #7f6483;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+
+}
